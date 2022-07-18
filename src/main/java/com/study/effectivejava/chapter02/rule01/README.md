@@ -53,6 +53,7 @@ public static Boolean valueOf(boolean a) {
    자료형 유츄는 jdk1.7에 생성자에도 가능해졌다. 아래 예)
    Map<String, List<String>> m = new HashMap<>();
    ```
+---
 ### 단점
  - public 이나 protected로 선언된 생성자가 없으므로 하위 클래스를 만들 수 없다는 것.
  - 정적 팩터리 메서드가 다른 정적 메서드와 확연히 구분되지 않는다는 것.
