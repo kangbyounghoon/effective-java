@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class Rule01Tests {
 
     @Test
-    void 서비스_제공자_프레임워크_기본() {
+    void 서비스_제공자_프레임워크_기본_Test() {
 
         //1. 제공자 등록 API에 서비스 제공자 인터페이스 구현체 등록
         Services.registerProvider("A", new AProviderImpl());
@@ -23,7 +23,7 @@ public class Rule01Tests {
     }
 
     @Test
-    void 서비스_제공자_프레임워크_Basic_Provider() throws ClassNotFoundException {
+    void 서비스_제공자_프레임워크_Basic_Provider_Test() throws ClassNotFoundException {
 
         //1. 제공자 등록 API에 서비스 제공자 인터페이스 구현체 등록
         Class.forName("com.study.effectivejava.chapter02.rule01.BasicProvider");
